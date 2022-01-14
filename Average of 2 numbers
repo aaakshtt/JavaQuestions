@@ -1,0 +1,16 @@
+//Write a Java program that takes three numbers as input to calculate and print the average of the numbers
+
+package com.example;
+import java.util.Scanner;
+
+class HelloCodiva {
+  
+  public static void main(String[] args) {
+    Scanner myobj = new Scanner(System.in);
+    int num1 = myobj.nextInt();
+    int num2 = myobj.nextInt();
+    int avergae = (num1 + num2)/2;
+    System.out.println("The average is" + avergae);
+  }
+  
+}
